@@ -15,6 +15,10 @@ wget https://raw.githubusercontent.com/Technocyrex/CentOS_Proxi/main/CentOS_Prox
 
 chmod +x CentOS_Proxi.sh
 
+# Increase the ulimit
+
+ulimit -n 65536
+
 ./CentOS_Proxi.sh
 
 # Akış Esnasında IPv6 için Kaç Adet İstediğinizi Soruyor
